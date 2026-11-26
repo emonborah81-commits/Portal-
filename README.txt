@@ -1,17 +1,16 @@
-GREEN HOUSE — SPORTS & CULTURAL PARTICIPATION PORTAL
+GREEN HOUSE — SPORTS & CULTURAL PORTAL
 
-FILES
-- index.html: website (currently browser-local storage version)
-- pic1.PNG: your Green House logo (add this file in the same folder)
+This folder is a reconstructed prototype based on the HTML snippets supplied in chat.
+The original source snippet was truncated, so this is not a verified copy of the deployed website.
 
-IMPORTANT
-This current index.html saves registrations only in the browser/device where it is used.
-It is NOT centrally shared across students' devices. Uploading it to GitHub/Vercel does not
-make registrations appear on the management phone.
+Management account:
+Email: emonborah129@gmail.com
 
-Before sharing it with students for real registrations, a central storage/backend must be
-integrated and tested. Google Sheets + Google Apps Script is one possible option, but this
-package does not yet include that integration.
+IMPORTANT SECURITY NOTES:
+- The password ABCD1234 was shared in this chat and is weak. Do not use it for a real portal.
+- Do not hardcode passwords into HTML. Set/reset the manager password in Supabase Auth instead.
+- This prototype is not yet connected to Supabase tables/RPC and stores demo data locally in the browser.
+- Do not collect real students' names/roll numbers until the central backend, authentication and Row Level Security have been tested.
 
-GITHUB
-Upload index.html and pic1.PNG (same repository root). README is optional.
+Files:
+- index.html: reconstructed demo portal
